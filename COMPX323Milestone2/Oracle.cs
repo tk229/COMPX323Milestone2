@@ -45,6 +45,9 @@ namespace COMPX323Milestone2
             conn.Dispose();
         }
 
+       
+
+
         public static void RegisterPersonMongoDB(string username, string password, string email, string firstname, string lastname)
         {
             // Connect MOngo DB, Enter username and password

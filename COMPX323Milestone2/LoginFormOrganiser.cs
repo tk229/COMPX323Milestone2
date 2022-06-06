@@ -76,7 +76,8 @@ namespace COMPX323Milestone2
                     MessageBox.Show(resultUsername + " " + resultPassword);
                     Organizer d = new Organizer();
                     d.Owner = this;
-               
+                    d.organiser = username;
+                    d.txtOrganiserName.Text = username;
                     d.conn = conn;
                     d.ShowDialog();
 
